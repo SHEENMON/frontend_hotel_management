@@ -1,3 +1,25 @@
+.bg-orange {
+  background-color: #F4835F;
+}
+.btn-head{
+  border-radius: 35px;
+  border: none;
+  width: 130px;
+  height: 50px;
+  padding: 10px;
+}
+.btn-pill{
+  background-color: #FEF8E7;
+  border: none;
+  border-radius: 20px;
+}
+
+
+a.link{
+  text-decoration: none;
+  color: black;
+}
+
 .App {
   text-align: center;
 }
@@ -7,6 +29,104 @@
   pointer-events: none;
 }
 
+.card-room {
+  width: 100%;
+  display: flex;
+}
+.card-img{
+  width: 100% !important;
+  height: 100%;
+}
+input[type="radio"] {
+  appearance: none; /* Remove default styling */
+  width: 20px;
+  height: 20px;
+  border: 2px solid #ccc;
+  border-radius: 50%;
+  outline: none;
+  cursor: pointer;
+  background-color: white;
+}
+
+input[type="radio"]:checked {
+  background-color: #FF916E; /* Color when checked */
+  border: 2px solid #FF916E;
+}
+.card-room-imag{
+  width: 30%;
+  /* position: absolute; */
+}
+.card-body {
+  width: 70%;
+}
+.card-image-overlay{
+  /* width: 100%; */
+  position: absolute;
+}
+.day-btn{
+  width: 40%;
+}
+.verified-btn{
+  width: 40%;
+}
+.timer-btn{
+  width: 20%;
+}
+.card-body{
+  width: 70%;
+}
+.room-details{
+  border-bottom: 1px solid black;
+}
+
+.sidebar {
+  width: 250px;
+  background-color: #333;
+  color: white;
+  height: 100vh;
+  padding: 20px;
+}
+
+.sidebar a {
+  display: block;
+  color: white;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.sidebar a:hover {
+  background-color: #555;
+}
+
+.dropdown {
+  display: none;
+  padding-left: 20px;
+}
+
+.dropdown a {
+  font-size: 0.9em;
+}
+
+input[type="checkbox"] {
+  display: none;
+}
+
+label {
+  display: block;
+  cursor: pointer;
+}
+
+input[type="checkbox"]:checked + label + .dropdown {
+  display: block;
+}
+.form-check-input[type=checkbox] {
+  border-radius: .25em;
+  display: block;
+}
+.form-check-input:checked {
+  background-color: #ff926e !important;
+  border-color: #ff916e !important;
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
