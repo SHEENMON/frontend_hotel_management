@@ -14,14 +14,14 @@ const Navbar = () => {
           <div className="collapse navbar-collapse" id="navbarContent">
             <h4 className="mb-0">ABC PROPERTIES</h4>
             <div className="d-flex flex-column flex-md-row gap-3 ms-auto align-items-md-center">
-              <a  className="link">Buy</a>
-              <a  className="link">Rent</a>
-              <a  className="link">Navigator's Edge</a>
-              <a  className="link">Our Agents</a>
-              <a  className="link">Blogs & Insights</a>
-              <a  className="link">New Launches</a>
-              <a  className="link">About us</a>
-              <a  className="link">Help & Support</a>
+              <a href="" className="link">Buy</a>
+              <a href="" className="link">Rent</a>
+              <a href="" className="link">Navigator's Edge</a>
+              <a href="" className="link">Our Agents</a>
+              <a href="" className="link">Blogs & Insights</a>
+              <a href="" className="link">New Launches</a>
+              <a href="" className="link">About us</a>
+              <a href="" className="link">Help & Support</a>
               <button className="btn-pill rounded-pill px-4">Sell Property</button>
             </div>
           </div>
